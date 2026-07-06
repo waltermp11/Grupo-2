@@ -1,0 +1,116 @@
+Si el proyecto es un **blog de música según el estado de ánimo (mood)**, una buena forma de aplicar Scrum es dividir el trabajo por funcionalidades. Para un equipo de **4 personas**, podría quedar así:
+
+# Sprint 1 (MVP)
+
+## 👩 Persona 1 – Frontend (Diseño)
+
+**Tareas**
+
+* Crear la estructura del blog (Home).
+* Diseñar la barra de navegación.
+* Crear la sección de estados de ánimo.
+* Diseñar las tarjetas de canciones o playlists.
+* Hacer el diseño responsive.
+
+---
+
+## 👨 Persona 2 – Frontend (Interacción)
+
+**Tareas**
+
+* Programar los botones de cada mood.
+* Mostrar las canciones según el mood seleccionado.
+* Implementar la búsqueda de canciones.
+* Agregar animaciones sencillas.
+* Manejar eventos con JavaScript.
+
+---
+
+## 👩 Persona 3 – Backend / Datos
+
+**Tareas**
+
+* Crear la estructura de datos (JSON o API).
+* Organizar las canciones por categorías:
+
+  * Feliz 😊
+  * Triste 😢
+  * Relajado 🌙
+  * Motivado 💪
+  * Enamorado ❤️
+* Crear funciones para obtener las canciones.
+* Conectar el frontend con los datos usando `fetch`.
+
+---
+
+## 👨 Persona 4 – Scrum Master / QA / Documentación
+
+**Tareas**
+
+* Crear el Product Backlog.
+* Organizar el Sprint Backlog.
+* Crear el tablero Scrum (To Do, Doing, Done).
+* Probar todas las funcionalidades.
+* Documentar el proyecto en GitHub.
+* Coordinar los Daily Scrum.
+
+---
+
+# Product Backlog
+
+* Como usuario quiero elegir mi estado de ánimo.
+* Como usuario quiero ver canciones relacionadas.
+* Como usuario quiero buscar canciones.
+* Como usuario quiero escuchar una vista previa.
+* Como usuario quiero ver la portada del álbum.
+* Como usuario quiero conocer el artista.
+* Como usuario quiero navegar desde cualquier dispositivo.
+
+---
+
+# Sprint Backlog
+
+### Día 1
+
+* Crear repositorio.
+* Crear estructura HTML.
+* Diseñar interfaz.
+* Organizar datos.
+
+### Día 2
+
+* Programar filtros.
+* Mostrar canciones.
+* Probar funcionalidades.
+
+### Día 3
+
+* Responsive.
+* Corrección de errores.
+* Documentación.
+* Presentación.
+
+---
+
+# Roles Scrum
+
+* **Product Owner:** Persona 3 (define las funcionalidades del blog).
+* **Scrum Master:** Persona 4.
+* **Development Team:** Personas 1, 2 y 3.
+
+---
+
+## Resultado esperado
+
+El usuario entra al blog y puede elegir un mood como:
+
+* 😊 Feliz
+* 😢 Triste
+* 😴 Relajado
+* 💪 Motivado
+* ❤️ Enamorado
+* 😡 Enojado
+
+Al seleccionar uno, aparecen canciones o playlists relacionadas con ese estado de ánimo, junto con la portada, el artista y un enlace para escucharlas.
+
+Es un proyecto con una división equilibrada para cuatro personas y permite aplicar claramente la metodología Scrum mediante un Product Backlog, Sprint Backlog y distribución de responsabilidades.
